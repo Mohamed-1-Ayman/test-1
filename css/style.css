@@ -1,0 +1,399 @@
+/* main global */
+:root{
+    --main-color:#6666;
+    --white:#fff;
+    --black:#000;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.container{
+    width:1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin:auto;
+}
+.over-lay{
+    background-color: rgba(0, 0, 0, 0.80);
+    width:100%;
+    height: 100%;
+}
+
+/* end main global */
+/*      Start hEADER */
+header{
+    width:100%;
+    height:900px;
+    background-image:url('../images/testimonial.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.header__content{
+    height: 60px;
+    background-color:var(--white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top:300px;
+    overflow: hidden;
+} 
+.hero .main{
+    align-items: center;
+    text-align: center;
+    overflow:hidden;
+    color:#fff;
+}
+.hero .main span{
+    text-align: center;
+    padding-bottom: 40px;
+}
+.hero .main h1{
+    padding-top: 20px;
+    text-align:center ;
+    padding-bottom: 10px;
+    color:#fff;
+    font-family: sans-serif;
+}
+.hero .main p{
+    text-align: center;
+    color: wheat;
+    padding-bottom: 30px;
+}
+.hero .main  .btn{
+    width: 130px;
+    height: 50px;
+    font-size: 18px;
+    background-color: yellow;
+    border:none;
+    border-radius: 5px;
+}
+/* END HEADER */
+/* main */
+main  .main{
+    width: 100%;
+    padding-top:30px;
+}
+main  .father_prod{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+}
+main  .father_prod .child{
+    width:25%;
+    height: 100%;
+    text-align: center;
+}
+main  .father_prod .child img{
+    max-width: 98%;
+    height:auto;
+    display:block;
+    padding-bottom: 10px;
+}
+main .father_prod .child h5{
+    color:gray;
+}
+main .father_prod .child h2{
+    color:var(--black);
+    font-size: 25px;
+}
+main .father_prod .child h2 a{
+    color:#12e;
+    text-decoration: none;
+}
+main .father_prod .child h2 a:hover{
+    color:var(--black);
+}
+main .father_prod .child h6{
+    color:var(--black);
+}
+
+/* End Section 11111111111111111111111111111111 */
+/* ***************section 2****************** */
+main .prod__headphone { 
+    width: 100%;
+    padding-top:10px;
+    display: flex;
+    justify-content: space-between;
+} 
+main .prod__headphone  .head { 
+    width:25%;
+} 
+main .prod__headphone  img{ 
+    width:100%;
+    height: 90%;
+    display: block;
+} 
+/* *************** SECTION 3******************* */
+main .mobile{
+    width: 100%;
+}
+
+main .mobile .des{
+    text-align: center;
+    padding-top: 50px;
+}
+main .mobile .sam{
+    width: 100%;
+    height: 100%;
+
+}
+
+main .mobile .sam .content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+main .mobile .sam .content .phone{
+    width: 24%;
+    height: 100%;
+    text-align:center;
+    position: relative;
+    overflow: hidden;
+}
+main .mobile .sam .content .phone img{
+    min-width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 10px;
+    margin-bottom:5px;
+}
+main .mobile .sam .content .phone img:hover{
+    transform: scale(1.1);
+    transition: all 1s ;
+}
+main .mobile .sam .content .phone .man{
+    position: absolute;
+    bottom:25%;
+    right:  30%;
+    color:var(--white);
+    background-color: #f3c300;
+    font-size: 14px;
+    line-height: 30px;
+    text-transform:uppercase;
+    padding:10px 30px;
+    font-weight: 600;
+    text-decoration:none;
+}
+main .mobile .sam .content .phone h3 {
+    color:#12e;
+    margin-top:20px;
+}
+main .mobile .sam .content .phone h3 a:hover {
+    color: var(--black);
+    text-decoration:none ;
+}
+/* *************** sec 4444444444444 */
+.main__content .royal{
+    background-image:url('../images/news1\ -\ Copy.jpg') ;
+    width: 100%;
+    background-size: cover;
+    height: 600px;
+    position: relative;
+}
+.main__content .lyr-2{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: rgb(19, 20, 39);
+}
+.main__content .lyr-2 .royal__content-0{
+    text-align:center;
+}
+.main__content .lyr-2 .royal__content-1 h1{
+    font-size: 45px;
+    color:blue;
+    line-height: 45px;
+    font-weight: 600;
+    padding-top: 45px;
+}
+.main__content .lyr-2 .royal__content-1 p{
+    font-size: 20px;
+    color:rgba(125,125, 125, 0.800);
+    line-height: 45px;
+}
+.main__content .lyr-2 .royal__content-2{
+    display: flex;
+    justify-content: space-between;
+}
+.main__content .lyr-2 .royal__content-2-1{
+    width: 30%;
+    margin-right:10px;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color:rgb(168, 168, 212);
+}
+.main__content .lyr-2 .royal__content-2-1 h4,p{
+    padding-top:20px;
+    padding-bottom:5px;
+    color:black;
+}
+.main__content .lyr-2 .royal__content-2-1 p{
+    padding-top:20px;
+    padding-bottom:5px;
+    color: gray rgba(180, 93, 93, 0.7);
+}
+.main__content .lyr-2 .royal__content-4{
+    padding-top:20px;
+}
+/* sec566666666666666666666666666666666*/
+/* sec566666666666666666666666666666666*//* sec566666666666666666666666666666666*//* sec566666666666666666666666666666666*/
+/* start about us */
+.about{
+    padding-top: 50px;
+    padding-bottom: 10px;
+    display: flex;
+}
+.about .about-box{
+    display: flex;
+}
+.about .about-info{
+    flex:1;
+    margin-top:30px;
+}
+.about .about-info h1{
+    font-size: 50px;
+    font-style: uppercase;
+}
+.about .about-info p{
+    color:  rgba(146, 179, 0, 0.925);
+}
+.about .about-img{
+    flex:1;
+    text-align: center;
+ }
+ .about .about-img img{
+    width: 75%;
+    height: auto;
+ }
+
+ /* ============= features======================= */
+ main .features{
+    padding-top:10px;
+    padding-bottom:6px;
+    background-color: rgba(160, 180, 201, 0.699);
+    display: flex;
+    justify-content: space-between;
+ }
+ main .features h2{
+     text-align: center;
+     margin-bottom: 100px;
+}
+main .features .feat-box-0{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin:10px;
+}
+main .features .feat-box-0 h4{
+    margin-top:10px;
+
+}
+main .features .feat-box-1{
+    display:flex;
+    text-align: center;
+}
+main .features img{
+    border-radius:500px;
+}
+
+/* 5555555555555555555555555555555555555555555555555 */
+/* testimonials */
+main .testimonials{
+    overflow: hidden;
+    display: flex;
+    padding-top:30px;
+}
+main .testimonials h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+main .testimonials .ts-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    text-align: center;
+    margin: 2px;
+    background-color: #f1e3e3;
+}
+.card p{
+    text-align: center;
+    color:black;
+    margin: 0 0 ;
+}
+.card img{
+    border-radius: 50%;
+    background-color:white;
+}   
+/* contact us ////////////////////////////////*/
+.contact{
+    padding-bottom: 20px;
+    background:linear-gradient(115deg,#56d8e4 10%,#9f01ea 90%);
+}
+.us{
+    background-color:var(--white);
+    box-shadow:  0px 0px 10px rgba(0, 0, 0, 0.5);
+    padding:50px;
+    padding-bottom:0;
+}
+.text{
+    font-size: 35px;
+    font-weight: 600;
+    font-family: cursive;
+    text-align: center;
+    padding-bottom:50px;
+}
+
+form{
+    /* text-align: center; */
+    width: 100%;
+}
+.input-1{
+    width:100%;
+    height: 50px;
+    border-radius: 20px;
+    margin-bottom:20px
+}
+.input-1-0{
+    width:50%;
+    height: 50px;
+    text-align: center;
+    border-radius: 20px;
+    background-color:#12ea;
+    color:#fff;
+    margin-top:10px;
+    margin-left: 25%;
+}
+
+.input-1::before{
+    background:linear-gradient(115deg,#56d8e4 10%,#9f01ea 90%);
+}
+/* footer2555555555555555555555555555555555555555555 */
+footer{
+    background-color:#12e;
+    max-width:100%;
+    height: 100vh;
+}
+.footer-content{
+    display: flex;
+}
+.footer-bottom{
+    background-color: rgb(198, 233, 0);
+    color:red;
+    text-align: center;
+}
